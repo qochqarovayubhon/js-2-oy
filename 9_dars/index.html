@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    
+  </head>
+  <body>
+    <div class="navbar container">
+      <div class="navbar__logo">
+        <h1 class="navbar__logo--title">Logo</h1>
+      </div>
+      <div class="navbar__links">
+        <a class="navbar__links--link" href="#">Home</a>
+        <a class="navbar__links--link" href="#">About</a>
+        <a class="navbar__links--link" href="#">Contact</a>
+        <a class="navbar__links--link" href="#">Blog</a>
+      </div>
+      <div class="navbar_baket">
+        <button class="navbar__basket--button" onclick="modalAdd()">
+         <i class="fa-solid fa-cart-shopping"></i>
+        </button>
+      </div>
+    </div>
+    <div class="cards container">
+      <div class="modal"></div>
+    </div>
+  </body>
+  <script src="./app.js"></script>
+</html>
