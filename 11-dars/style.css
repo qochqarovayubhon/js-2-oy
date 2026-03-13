@@ -31,6 +31,10 @@ p {
   background-color: #0056b3;
   color: white;
   text-align: center;
+  border-radius: 50px;
+}
+.card > p{
+  padding-right: 150px;
 }
 .card:hover {
   box-shadow:
