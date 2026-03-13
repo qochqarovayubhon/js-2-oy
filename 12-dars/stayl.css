@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2VjdXJpdHklMjBjb2RlfGVufDB8fDB8fHww&w=1000&q=80);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: cursive;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 56px;
+  padding: 0 20px;
+}
+
+header nav ul{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;;
+}
+
+header button{
+  padding: 7px 25px;
+  background-color: transparent;
+  border: 2px solid gold;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+header button:active{
+  transform: scale(0.9);
+}
